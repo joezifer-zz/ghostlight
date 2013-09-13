@@ -1,1 +1,9 @@
-Hello World!
+ghostlight is a tiny shell script intended to deactivate DPMS for a set amount of time
+
+How to use:
+
+"ghostscript n" where n is the time in minutes that you want DPMS to be inactive.
+
+Calling the script with no arguments will output either 1 or 0, depending on whether DPMS is active or not.
+
+If you run the script in the foreground it will re-enable DPMS on SIGINT, if you run the script in the background you will have to manually re-enable DPMS with "xset dpms".
