@@ -2,7 +2,7 @@ ghostlight is a tiny shell script intended to deactivate DPMS & the xscreensaver
 
 How to use:
 
-Replace the value in line 11 (timeout:  600) with the value you find with "xset -q | grep 'timeout:  "
+Replace the value in line 11 (timeout:  600) with the value you find with "xset -q | grep 'timeout:  '"
 
 "ghostscript n" where n is the time in minutes that you want DPMS & screensaver to be inactive.
 
