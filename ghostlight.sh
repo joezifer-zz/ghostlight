@@ -1,4 +1,11 @@
 #!/bin/bash
+#
+# ghostlight.sh
+#
+# script to deactivate dpms and xscreensaver for set amount of time
+# Author: Daniel Stemmer, 2013
+# eMail: joe-doe@arcor.de
+#
 
 trap "xset dpms" SIGINT
 trap "xset s on" SIGINT
